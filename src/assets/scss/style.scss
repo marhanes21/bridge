@@ -1,0 +1,19 @@
+@import "variables";
+
+.navbar {
+  padding: 1.5rem;
+  background: $grey;
+
+  .navbar-nav {
+    .nav-link {
+      zoom: 1;
+      font-weight: 700;
+      font-size: .875rem;
+      padding: 0 1.125rem;
+      color: rgba(42,43,47,1);
+      &.active {
+        color: $primary;
+      }
+    }
+  }
+}

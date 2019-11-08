@@ -1,18 +1,7 @@
 import React, {Component} from 'react';
 
 class Main extends Component {
-    constructor(props) {
-        super(props);
 
-    }
-
-    componentWillMount() {
-
-    }
-
-    componentDidMount() {
-
-    }
 
     render() {
         return (
