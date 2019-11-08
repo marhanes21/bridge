@@ -6,7 +6,9 @@ class Main extends Component {
     render() {
         return (
             <div className="Main">
-                Main
+                <div className="hero-banner">
+
+                </div>
             </div>
         );
     }
