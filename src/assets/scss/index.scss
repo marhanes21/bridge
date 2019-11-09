@@ -7,6 +7,7 @@ body {
 }
 
 button:focus,
+.btn-primary:focus,
 textarea:focus,
 textarea.form-control:focus,
 input.form-control:focus,
@@ -19,8 +20,22 @@ input[type=number]:focus,
 [type=email].form-control:focus,
 [type=tel].form-control:focus,
 [contenteditable].form-control:focus {
-    box-shadow: none;
-    outline: none;
+  box-shadow: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+}
+
+
+h1 {
+  font-weight: 700;
+  font-size: 2.375rem;
+}
+h6 {
+  font-size: .875rem;
+  text-transform: uppercase;
 }
 
 @import "style.scss";

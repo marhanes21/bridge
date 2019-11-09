@@ -13,7 +13,7 @@ class NavBar extends Component {
             <div className='Navbar'>
                 <Router>
                     <Navbar expand="lg" fixed="top">
-                        <Navbar.Brand><img src={logo} width='180px' className="pl-1" alt="logo"/></Navbar.Brand>
+                        <Navbar.Brand><img src={logo} width='170px' className="pl-1" alt="logo"/></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse className="justify-content-end">
                             <Nav>
@@ -38,13 +38,11 @@ class NavBar extends Component {
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                    <Container fluid>
                         <Switch>
                             <Route exact path="/" component={Main}/>
                             <Route path="/main" component={Main}/>
                             <Route path="/about" component={About}/>
                         </Switch>
-                    </Container>
                 </Router>
             </div>
         );

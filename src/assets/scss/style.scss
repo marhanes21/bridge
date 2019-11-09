@@ -1,5 +1,27 @@
 @import "variables";
 
+.divider {
+  width: 40px;
+  height: 2px;
+  background-color: rgba(229, 90, 84, 1);
+  margin: 1.375rem 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+  letter-spacing: 1px;
+  font-size: .9rem;
+  padding: 0.65em 1.5em;
+
+  &.btn-primary {
+    background: $primary;
+    text-transform: uppercase;
+    color: white !important;
+  }
+}
+
+
 .navbar {
   padding: 1.4rem 1rem;
   background: $grey;
@@ -7,6 +29,7 @@
   .navbar-toggler {
     border: none;
   }
+
   .navbar-toggler-icon {
     height: 1.2em;
     width: 1.2em;
@@ -41,12 +64,33 @@
     &::after {
       content: '';
       position: absolute;
+      z-index: 0;
       width: 100%;
       height: 100%;
       top: 0;
       display: block;
       background: rgba(255, 255, 255, .6);
     }
+
+    .banner-text {
+      text-align: justify;
+      position: absolute;
+      z-index: 1;
+      top: 30%;
+    }
   }
 
+  .top-boxes {
+    .box {
+      height: 320px;
+      &.box-1 {
+        background: url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+        background-size: cover;
+      }
+      &.box-2 {
+        background: url("https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1222&q=80");
+        background-size: cover;
+      }
+    }
+  }
 }
