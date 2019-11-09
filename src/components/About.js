@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return (
             <div className='About'>
-asdas
+                <div className="hero-banner"></div>
             </div>
         );
     }

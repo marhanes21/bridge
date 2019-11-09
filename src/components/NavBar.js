@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Main from "./Main";
 import About from "./About";
 import '../assets/scss/index.scss'
-import logo from "../assets/images/logo@2x.png";
+import logo from "../assets/images/bridge.svg";
 
 class NavBar extends Component {
     render() {
@@ -13,7 +13,7 @@ class NavBar extends Component {
             <div className='Bridge'>
                 <Router>
                     <Navbar expand="lg" fixed="top">
-                        <Navbar.Brand><img src={logo} width='158px' className="pl-1" alt="logo"/></Navbar.Brand>
+                        <Navbar.Brand><img src={logo} width='180px' className="pl-1" alt="logo"/></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse className="justify-content-end">
                             <Nav>
