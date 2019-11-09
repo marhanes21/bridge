@@ -5,12 +5,12 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Main from "./Main";
 import About from "./About";
 import '../assets/scss/index.scss'
-import logo from "../assets/images/bridge.svg";
+import logo from "../assets/images/bridge1.svg";
 
 class NavBar extends Component {
     render() {
         return (
-            <div className='Bridge'>
+            <div className='Navbar'>
                 <Router>
                     <Navbar expand="lg" fixed="top">
                         <Navbar.Brand><img src={logo} width='180px' className="pl-1" alt="logo"/></Navbar.Brand>
