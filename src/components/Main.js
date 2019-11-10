@@ -27,12 +27,36 @@ class Main extends Component {
                         <Row>
                             <Col xs={7} className="images-boxes p-0">
                                 <Row>
-                                    <Col className="p-0 box box-1">asd</Col>
-                                    <Col className="p-0 box box-2">adsa</Col>
+                                    <Col className="p-0 box box-1">
+                                        <div className="box-text">
+                                            <div className="box-title">
+                                                <h3>interactive</h3>
+                                                <div className="divider"/>
+                                                <p className='small-text m-0'>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Repellendus, repudiandae!</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col className="p-0 box box-2">
+                                        <div className="box-text">
+                                            <div className="box-title">
+                                                <h3>identity</h3>
+                                                <div className="divider"/>
+                                                <p className='small-text m-0'>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Repellendus, repudiandae!</p>
+                                            </div>
+                                        </div>
+                                    </Col>
                                 </Row>
                             </Col>
                             <Col className="text-box pr-0">
-                                <Col className="p-0 box box-3">ada</Col>
+                                <Col className="p-0 box box-3">
+                                    <div className="box-text padding">
+                                        <h2>Driving ideas into innovative products since 2000.</h2>
+                                        <div className="divider bg-white"/>
+                                        <a className='link'>VIEW ALL SERVICES </a>
+                                    </div>
+                                </Col>
                             </Col>
                         </Row>
                     </Container>
