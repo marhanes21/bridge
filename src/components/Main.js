@@ -25,8 +25,8 @@ class Main extends Component {
                 <section className='top-boxes'>
                     <Container fluid>
                         <Row>
-                            <Col xs={7} className="images-boxes p-0">
-                                <Row>
+                            <Col xs={12} md={7} className="images-boxes p-0">
+                                <div className="d-flex">
                                     <Col className="p-0 box box-1">
                                         <div className="box-text">
                                             <div className="box-title">
@@ -47,9 +47,9 @@ class Main extends Component {
                                             </div>
                                         </div>
                                     </Col>
-                                </Row>
+                                </div>
                             </Col>
-                            <Col className="text-box pr-0">
+                            <Col className="text-box pr-0 pl-0">
                                 <Col className="p-0 box box-3">
                                     <div className="box-text padding">
                                         <h2>Driving ideas into innovative products since 2000.</h2>
